@@ -459,14 +459,14 @@ margin-bottom: 16px;
     width: 370px;
 }
 
-.portfolio-item:hover .portfolio-top-text {
-    transform: translateY(0);
-}
-
 
 .portfolio-link{
     display: block;
     transition: box-shadow var(--tra);
+}
+
+.portfolio-link:hover .portfolio-top-text {
+    transform: translateY(0);
 }
 
 .portfolio-link:hover,
